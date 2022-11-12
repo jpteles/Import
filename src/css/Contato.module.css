@@ -1,0 +1,112 @@
+.contato{
+    float: left;
+    width: 100vw;
+    height: 1000px;
+    background: #DEDADA;
+    width: 100%;
+}
+
+.info_contato{
+    width: 60%;
+    font-family: 'fontetexto';
+    text-align: center;
+    margin-top: 5%;
+    float: left;
+}
+
+.info_contato h2{
+    font-size: 30px;
+}
+
+.info_contato p{
+    font-size: 20px;
+    font-family: 'fontetexto';
+}
+
+.tel{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    padding-left: 32%;
+}
+
+.icon_telefone{
+    width: 3%;
+    padding: 2%;
+}
+
+.imagem_mundo{
+    margin-top: 5%;
+}
+
+.info_contato h3{
+    font-size: 35px;
+}
+
+#texto_plataforma{
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+    padding-left: 15%;
+    font-family: 'fontetexto';
+}
+
+#email{
+    font-weight: bold
+}
+
+#numero_tel{
+    font-weight: bold
+}
+
+.formulario{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.formulario h2{
+    font-size: 30px;
+    font-family: 'fontetexto';
+}
+
+#fale_conosco{
+    font-size: 20px;
+    font-family: 'fontetexto';
+    text-align: left;
+    font-weight: bold
+}
+
+
+form{
+    width: 100%;
+    background-color: aquamarine;
+
+  }
+  
+.caixa_form {
+    margin-top: 15%;
+    width: 100%;
+    height: 5%;
+  }
+
+  label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+input{
+    font-family: 'fontetexto';
+    width: 90%;
+    height: 10%;
+  }
+  
+
+  textarea {
+    vertical-align: top;
+    width: 80%;
+  }
