@@ -1,5 +1,12 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .rodape{
-    width: 100vw;
+    width: 100%;
     height: 400px;
     float: left;
     background: #FFFFFF;
@@ -114,7 +121,7 @@
     color: #FFFFFF;
 }
 
-.infos_legais a{
+.infos_legais p{
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -124,18 +131,15 @@
 }
 
 .fale_conosco{
-    width: 10%;
+    width: 15%;
     font-family: 'fontetexto';
     margin-left: 5%;
     color: #FFFFFF;
-    background-color: rgb(241, 32, 32);
 }
 
-.attfaleconosco p{
+.fale_conosco p{
     text-decoration: none;
     color: #FFFFFF;
-    background-color: aquamarine;
-    width: 5px;
 }
 
 .fale_conosco a:hover{
