@@ -1,0 +1,28 @@
+.Propostas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2% 1%;
+    margin: 5%;
+    gap: 20px;
+}
+
+.cargo_dia{
+    display: flex;
+    flex: row;
+    font-weight: 700;
+    gap: 40%;
+}
+
+.local_modo{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    font-weight: 700;
+}
+
+#modo{
+    font-size: 12px;
+}

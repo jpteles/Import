@@ -1,0 +1,62 @@
+.Header_Vagas{
+    background: rgba(89, 62, 192, 0.95);
+    width: 100%;
+    height: 90px;
+    float: left;
+}
+
+.logo{
+    width: 20%;
+    padding: 10px;
+    float: left;
+    margin-left: 1%;
+}
+
+.div_botao{
+    float: right;
+    background-color: aqua;
+}
+
+.botao_anunciar{
+    width: 10%;
+    float: left;
+}
+
+.perfil_anuncio{
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    float: right;
+    padding: 0.5%;
+    background-color: blue;
+}
+
+.perfil_anuncio p{
+    width: 100%;
+}
+
+.search_box {
+    width: 45%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 12px;
+    float: right;
+    font-family: 'fontetexto';
+  }
+  
+.form_outline{
+   padding: 1%;
+   width: 90%;
+}
+  
+.btn{
+    font-family: 'fontetexto';
+    width: 6%;
+    padding: 0.4%;
+    left: 64%;
+    position: absolute;
+    background-color: #F3751A;
+    color: white;
+    border-radius: 20px;
+    margin-top: -2.7%;
+}

@@ -1,0 +1,49 @@
+.Beneficios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.Beneficios p{
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.Beneficios h3{
+    padding: 5% 2%;
+    font-size: 25px;
+    font-family: 'fontetexto';
+    margin-left: 2%;
+}
+
+#assistencias{
+    padding-top: 2%;
+}
+
+#candidata_se{
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#candidata_se button{
+    width: 50%;
+    padding: 3%;
+    margin-left: 2%;
+    border-radius: 30px;
+    color: white;
+    background-color: #433E98;
+    font-size: 20px;
+}
+
+#candidata_se img{
+    width: 7%;
+    height: 10%;
+    margin: 1% 3%;
+}
+
+#infos_vaga{
+    margin-bottom: 3%;
+}
