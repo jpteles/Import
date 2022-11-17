@@ -107,27 +107,39 @@ function Cadastro_Vaga(){
                     </div>
                     <div className={styles.categories}>
                 <section className={styles.category_section}>
-                    <button class={styles.category}>Assistencia Médica</button>
-                    <button class={styles.category}>Celular</button>
-                    <button class={styles.category}>Vale alimentação / Vale refeição</button>
+                    <button class={styles.category}>Tempo integral</button>
+                    <button class={styles.category}>Meio periodo</button>
+                    <button class={styles.category}>Efetivo CLT</button>
+                    
                 </section>
                 <section className={styles.category_section}>
-                    <button class={styles.category}>Estacionamento</button>
-                    <button class={styles.category}>Carro Corporativo</button>
-                    <button class={styles.category}>Estacionamento</button>
+                    <button class={styles.category}>Temporario</button>
+                    <button class={styles.category}>Autônomo/PJ</button>
+                    <button class={styles.category}>Intermitente</button>
+                    
                     </section>
                 <section className={styles.category_section}>
-                    <button class={styles.category}>Plano Academico</button>
-                    <button class={styles.category}>Dia de Férias Adicionais</button>
-                    <button class={styles.category}>Seguro de Vida</button>
+                    <button class={styles.category}>Efetivo CLT (Freelance)</button>
+                    <button class={styles.category}>Estágio/Trainne</button>
                 </section>
             </div>
             </div>
             <div className={styles.maisinfo_vaga}>
-                Palmeiras
+            <div className={styles.caixas_tit_vaga}>
+                    <label className={styles.nome_cima} for="nome">Mais informações:</label>
+                    <input type="texto" id={styles.formu} />
+            </div>
             </div>
             <div className={styles.notificacao_vaga}>
-                Palmeiras
+                <p>Configuração de notificações</p>
+                <div className={styles.caixas_tit_vaga}>
+                    <label className={styles.nome_cima} for="nome">Digite o seu email para receber as informações sobre a candidatura:</label>
+                    <input type="email" id={styles.formu} />
+                    </div>
+                    <div className={styles.confirm_email}>
+                            <label className={styles.nome_confirm_email} for="senha">Codigo de confirmação de Email</label>
+                            <input type="texto" id={styles.input_confirm_email} name="nome_empresa" />
+                        </div>
             </div>
             <div className={styles.fim_vaga}>
                 Palmeiras

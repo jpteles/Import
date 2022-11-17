@@ -4,6 +4,7 @@
     background: #ffffff;
     display: flex;
     flex-direction: row;
+    float: left;
 }
 
 .formulario_empresa{

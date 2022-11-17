@@ -1,22 +1,16 @@
 .impacto{
     width: 100%;
-    margin-top: 6%;
     font-size: 40px;
-    
-}
-
-.titulo_impacto{
-    font-family: 'fonteheader';
-    width: 100%;
-    text-align: center;
-    margin-top: 10%;
+    padding-bottom: 5%;
+    background: linear-gradient(0deg, #706cbb, #433E98);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .container_impacto{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 }
