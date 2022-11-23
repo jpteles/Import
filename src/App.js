@@ -1,27 +1,19 @@
 import './App.css';
-import Header from './Componentes/Header.jsx';
-import Home from './Componentes/Home.jsx'
-import Depoimento from './Componentes/Depoimento';
-import Impacto from './Componentes/Impacto.jsx'
-import Rodape from './Componentes/Rodape.jsx';
-// import Registro_Empresa from './Componentes/Registro_Empresa'
-// import Vagas from './Componentes/Vagas.jsx'
-// import Cadastro_Pessoa from './Componentes/Cadastro_Pessoa.jsx'
-// import Cadastro_Vaga from './Componentes/Cadastro_Vaga';
-
+import Pagina_Home from './Paginas/Pagina_Home.jsx'
+import Pagina_QuemSomos from './Paginas/Pagina_QuemSomos.jsx';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Header />
-    <Home />
-    <Depoimento />
-    <Impacto />
-    <Rodape />
-    {/* <Registro_Empresa />
-    <Vagas />
-    <Cadastro_Pessoa />
-    <Cadastro_Vaga /> */}
+    
+    <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Pagina_Home />} />
+                <Route path="/quem_somos" element={<Pagina_QuemSomos />} />
+            </Routes>
+        </BrowserRouter>
+    
     </>
   )
 }

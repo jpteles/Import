@@ -1,6 +1,7 @@
 import styles from '../css/Header.module.css'
 import Logo from '../imagens/logo_import.png'
 import coracao from '../imagens/coracao.png'
+import { Link } from "react-router-dom";
 
 
 function Header(){
@@ -12,10 +13,14 @@ function Header(){
             </div>
             <nav className={styles.dp_menu}>
         <ul>
-            <li><a href="#" id={styles.botaohome}>Home</a></li>
+            <li> 
+        <Link to="/" id={styles.botaohome}>
+            Home
+            </Link>
+            </li>
             <li><a href="#">Serviços</a>
                 <ul>
-                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#"><Link to="/quem_somos">Quem Somos</Link></a></li>
                     <li><a href="#">Psicologia como funciona?</a></li>
                     <li><a href="#">Como tirar documentos?</a></li>
                     <li><a href="#series">Idiomas como aprender</a></li>

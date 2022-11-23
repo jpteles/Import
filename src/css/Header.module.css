@@ -22,7 +22,6 @@
     width: 10%;
     height: 100%;
     margin-right: 5%;
-    margin-left: 2%;
 }
 
 .botao{
@@ -59,7 +58,7 @@
 }
 
 .dp_menu li{
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .dp_menu ul {
@@ -81,6 +80,7 @@
 
 .dp_menu ul li a:hover {
     background-color: var(--cor-hover);
+    border-radius: 10px;
 }
 
 /*sub menu*/
@@ -92,11 +92,14 @@
 
 .dp_menu ul li:hover ul {
     display: block;
+    border-radius: 10px;
 }
 
 .dp_menu ul ul {
-    width: 100px;
-    font-size: 12px;
+    width: 170px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(63, 42, 147, 0.313);
 }
 
 .dp_menu ul ul li a {

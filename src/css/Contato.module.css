@@ -1,111 +1,74 @@
-.contato{
-    float: left;
-    height: 1000px;
-    background: #DEDADA;
+.Contato{
     width: 100%;
-}
-
-.info_contato{
-    width: 60%;
-    font-family: 'fontetexto';
-    text-align: center;
-    margin-top: 5%;
-    float: left;
-}
-
-.info_contato h2{
-    font-size: 30px;
-}
-
-.info_contato p{
-    font-size: 20px;
-    font-family: 'fontetexto';
-}
-
-.tel{
+    height: 700px;
     display: flex;
     flex-direction: row;
+    justify-content: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formascontato{
+    width: 30%;
+    height: 300px;
     text-align: center;
-    width: 100%;
-    padding-left: 32%;
-}
-
-.icon_telefone{
-    width: 3%;
-    padding: 2%;
-}
-
-.imagem_mundo{
-    margin-top: 5%;
-}
-
-.info_contato h3{
-    font-size: 35px;
-}
-
-#texto_plataforma{
-    font-size: 20px;
-    width: 50%;
-    text-align: left;
-    padding-left: 15%;
     font-family: 'fontetexto';
+    margin-right: 10%;
 }
 
-#email{
-    font-weight: bold
+.fale_conosco p{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 5%;
 }
 
-#numero_tel{
-    font-weight: bold
-}
-
-.formulario{
-    width: 40%;
-    float: left;
+.fale_conosco{
+    width: 30%;
+    height: 300px;
     text-align: center;
-    margin-top: 5%;
+    font-family: 'fontetexto';
+    margin-left: 10%;
 }
 
-.formulario h2{
-    font-size: 30px;
-    font-family: 'fontetexto';
+.contatoemail_tel{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
 }
 
-#fale_conosco{
-    font-size: 20px;
-    font-family: 'fontetexto';
-    text-align: left;
-    font-weight: bold
-}
-
-
-form{
-    width: 100%;
-    background-color: aquamarine;
-
-  }
-  
-.caixa_form {
-    margin-top: 15%;
-    width: 100%;
-    height: 5%;
-  }
-
-  label {
-    
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-  }
-  
-input{
-    font-family: 'fontetexto';
-    width: 90%;
+.contatoemail_tel img{
+    width: 20%;
     height: 10%;
-  }
-  
+}
 
-  textarea {
-    vertical-align: top;
-    width: 80%;
-  }
+.contatoemail_tel p{
+    margin-left: 2%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#telefone{
+    width: 10%;
+    height: 10%;
+}
+
+.parte_mundo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    font-family: 'fontetexto';
+    float: left;
+}
+
+.parte_mundo h4{
+    color: #0A142F;
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.parte_mundo p{
+    width: 100%;
+    font-size: 25px;
+    padding: 2% 15% 8% 15%;
+}

@@ -50,11 +50,9 @@ function Rodape(){
                 <div className={styles.fale_conosco}>
                     <h4>FALE CONOSCO</h4>
                     <br />
-                    <div className={styles.attfaleconosco}>
-                    <p>InstituoImport@gmail.com</p>
+                    <a href='#'>InstituoImport@gmail.com</a>
                     <br /><br />
-                    <p>+55 11 94527-0673</p>
-                    </div>
+                    <a href='#'>+55 11 94527-0673</a>
                 </div>
             </div>
             <div className={styles.footer_baixo}>

@@ -1,15 +1,10 @@
-*{
-    padding: 0;
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 
 .rodape{
     width: 100%;
     height: 400px;
     float: left;
     background: #FFFFFF;
+    margin-top: 25%;
 }
 
 .rodape_doar{
@@ -18,7 +13,7 @@
     width: 70%;
     height: 80%;
     float: left;
-    margin-left: 25%;
+    margin-left: 24%;
     margin-top: 5%;
 }
 
@@ -26,9 +21,8 @@
     width: 70%;
     margin-top: 5%;
     font-family: 'fontetexto';
-    text-align: center;
-    float: left;
-    
+    text-align: right;
+    font-weight: 700;
 }
 
 .botoes{
@@ -59,7 +53,7 @@
     height: 100%;
     width: 23%;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 20px;
     font-family: 'fontetexto';
     border-radius: 10px;
@@ -67,10 +61,6 @@
     background: #E4580F;
     color: white;
     margin-left: 7%;
-}
-
-.doar:hover{
-    background-color: red;
 }
 
 .container_footer{
@@ -96,7 +86,7 @@
 }
 
 .navegacao a:hover{
-    color: red;
+    color: #E4580F;
 }
 
 .servicos{
@@ -112,7 +102,7 @@
 }
 
 .servicos a:hover{
-    color: red;
+    color: #E4580F;
 }
 
 .infos_legais{
@@ -128,23 +118,23 @@
 }
 
 .infos_legais a:hover{
-    color: red;
+    color: #E4580F;
 }
 
 .fale_conosco{
     width: 15%;
     font-family: 'fontetexto';
-    margin-left: 5%;
+    margin-left: 2%;
     color: #FFFFFF;
 }
 
-.fale_conosco p{
+.fale_conosco a{
     text-decoration: none;
     color: #FFFFFF;
 }
 
 .fale_conosco a:hover{
-    color: red;
+    color: #ff7931;
 }
 
 .footer_baixo{
