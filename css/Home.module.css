@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'fontetexto';
+    src: url('../fontes/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'fonteheader';
+    src: url("../fontes/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+.home{
+    width: 100%;
+    float: left;
+    height: 800px;
+}
+
+.imgmulherhome{
+    width: 100%;
+    height: 100%;
+}

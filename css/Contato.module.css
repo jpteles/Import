@@ -1,0 +1,74 @@
+.Contato{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.formascontato{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    font-family: 'fontetexto';
+    margin-right: 10%;
+}
+
+.fale_conosco p{
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 5%;
+}
+
+.fale_conosco{
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    font-family: 'fontetexto';
+    margin-left: 10%;
+}
+
+.contatoemail_tel{
+    display: flex;
+    flex-direction: row;
+    padding: 5% 20%;
+}
+
+.contatoemail_tel img{
+    width: 20%;
+    height: 10%;
+}
+
+.contatoemail_tel p{
+    margin-left: 2%;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#telefone{
+    width: 10%;
+    height: 10%;
+}
+
+.parte_mundo{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    text-align: center;
+    font-family: 'fontetexto';
+    float: left;
+}
+
+.parte_mundo h4{
+    color: #0A142F;
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.parte_mundo p{
+    width: 100%;
+    font-size: 25px;
+    padding: 2% 15% 8% 15%;
+}

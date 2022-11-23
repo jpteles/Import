@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'fonteheader';
+    src: url("../fontes/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+.content{
+    background: rgba(89, 62, 192, 0.95);
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+
+.logo{
+    width: 18%;
+    padding: 10px;
+    float: left;
+    margin-left: 8%;
+}
+
+.login{
+    float: right;
+    width: 10%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.botao{
+    width: 60%;
+    height: 70%;
+    background: #e45a0f00;
+    border: none;
+    font-family: 'fonteheader';
+    font-size: 25px;
+    color: #E4580f;
+    border: 1px solid #E4580f;
+    margin-top: 8%;
+}
+
+:root {
+    --cor-fundo: rgba(89, 62, 192, 0.95);
+    --cor-hover: #E4580F;
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+#botaohome{
+    background-color: #E4580f;
+    border-radius: 10px;
+}
+
+.dp_menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 25%;
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: 0.5%;
+}
+
+.dp_menu li{
+    margin-right: 3%;
+}
+
+.dp_menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp_menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp_menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp_menu ul li a:hover {
+    background-color: var(--cor-hover);
+    border-radius: 10px;
+}
+
+/*sub menu*/
+.dp_menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp_menu ul li:hover ul {
+    display: block;
+    border-radius: 10px;
+}
+
+.dp_menu ul ul {
+    width: 170px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(63, 42, 147, 0.313);
+}
+
+.dp_menu ul ul li a {
+    display: block;
+}

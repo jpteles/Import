@@ -1,0 +1,77 @@
+.Sobre_Nos{
+    width: 100%;
+}
+
+.Sobre_Nos h1{
+    width: 100%;
+    text-align: center;
+    font-family: 'fonteheader';
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.contexto{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.contexto p{
+    width: 50%;
+    font-family: 'fontetexto';
+    font-size: 22px;
+    line-height: 45px;
+    font-weight: 600;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.import_futuro{
+    width: 100%;
+    background-color: #FAF0E7;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_import_futuro{
+    width: 50%;
+    padding: 5%;
+    height: 100%;
+}
+
+.texto_import_futuro{
+    width: 50%;
+    
+}
+
+.texto_import_futuro h1{
+    text-align: left;
+    padding-top: 10%;
+    color: rgba(92, 87, 87, 1);
+}
+
+#textoimport{
+    font-size: 25px;
+    width: 75%;
+    font-weight: 400;
+    font-family: 'fontetexto';
+    padding-top: 3%;
+    color: rgba(69, 60, 60, 1);
+}
+
+#textofuturo{
+    font-size: 22px;
+    width: 75%;
+    font-family: 'fontetexto';
+    padding-top: 3%;
+}
+
+.botao{
+    margin: 9% 25% 25%;
+    padding: 2%;
+    width: 30%;
+    font-family: 'fonteheader';
+    font-size: 25px;
+    background-color: #E4580F;
+    color: white;
+    border: none;
+}

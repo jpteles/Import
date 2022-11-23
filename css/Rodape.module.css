@@ -1,0 +1,192 @@
+
+.rodape{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background: #FFFFFF;
+    margin-top: 25%;
+}
+
+.rodape_doar{
+    background-image: url(../imagens/Rectangle\ 227.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 80%;
+    float: left;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+.rodape_doar h1{
+    width: 70%;
+    margin-top: 5%;
+    font-family: 'fontetexto';
+    text-align: right;
+    font-weight: 700;
+}
+
+.botoes{
+    width: 70%;
+    height: 55px;
+    text-align: center;
+    margin-top: 2%;
+    float: left;
+}
+
+.receber_noticias{
+    height: 100%;
+    width: 20%;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'fontetexto';
+    border-radius: 10px;
+    background-color: #ffffff00;
+    margin-right: 7%;
+    border: 1px solid black;
+}
+
+.receber_noticias:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.doar{
+    height: 100%;
+    width: 23%;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    font-family: 'fontetexto';
+    border-radius: 10px;
+    border: none;
+    background: #E4580F;
+    color: white;
+    margin-left: 7%;
+}
+
+.container_footer{
+    width: 100%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    background: #05102E;
+    color: #FFFFFF;
+    float: left;
+}
+
+.navegacao{
+    width: 15%;
+    font-family: 'fontetexto';
+    margin-left: 15%;
+    color: #FFFFFF;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navegacao a:hover{
+    color: #E4580F;
+}
+
+.servicos{
+    width: 12%;
+    font-family: 'fontetexto';
+    margin-left: 5%;
+    color: #FFFFFF;
+}
+
+.servicos a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.servicos a:hover{
+    color: #E4580F;
+}
+
+.infos_legais{
+    width: 15%;
+    font-family: 'fontetexto';
+    margin-left: 7%;
+    color: #FFFFFF;
+}
+
+.infos_legais a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.infos_legais a:hover{
+    color: #E4580F;
+}
+
+.fale_conosco{
+    width: 15%;
+    font-family: 'fontetexto';
+    margin-left: 2%;
+    color: #FFFFFF;
+}
+
+.fale_conosco a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.fale_conosco a:hover{
+    color: #ff7931;
+}
+
+.footer_baixo{
+    width: 100%;
+    background: #05102E;
+    float: left;
+}
+
+#linha_footer{
+    width: 100%;
+    margin-top: 1%;
+}
+
+.logo_rede{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    background: #05102E;
+}
+
+#logo2{
+    width: 15%;
+    margin-left: 15%;
+    float: left;
+}
+
+.logo_rede p{
+    margin-top: 2%;
+    margin-left: 10%;
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#face{
+    width: 2%;
+    height: 2%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+#linkedin{
+    width: 2%;
+    height: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#twitter{
+    width: 2%;
+    height: 2%;
+    margin-top: 2%;
+    margin-left: 1%;
+}

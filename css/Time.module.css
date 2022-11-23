@@ -1,0 +1,41 @@
+.Time{
+    width: 100%;
+    background-color: #F3F3F4;
+    text-align: center;
+}
+
+.Time h1{
+    padding-top: 5%;
+    font-family: 'fonteheader';
+    font-size: 50px;
+}
+
+.Container_time{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 100%;
+    margin: 2% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    gap: 50px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 5%;
+    font-family: 'fontetexto';
+}
+
+.integrantes{
+    width: 20%;
+}
+
+.integrantes img{
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+}
+
+.integrantes h3{
+    padding-top: 2%;
+}

@@ -1,0 +1,35 @@
+.home_qmsomos{
+    width: 100%;
+}
+
+.home_qmsomos img{
+    width: 100%;
+    height: 50%;
+}
+
+.container_texto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'fontetexto';
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.container_texto_filho{
+    width: 20%;
+    text-align: center;
+}
+
+.container_texto_filho h1{
+    font-family: 'fonteheader';
+}
+
+.container_texto_filho p{
+    font-size: 24px;
+}
+
+#leveumsorriso{
+    width: 100%;
+}
